@@ -1,6 +1,11 @@
 <?php
 
-use SitePoint\Container\Exception\ServiceNotFoundException;
+use ServiceNotFoundException;
+use ParameterNotFoundException;
+use ContainerException;
+use ParameterReference;
+use ServiceReference;
+
 
 namespace \Container;
 
