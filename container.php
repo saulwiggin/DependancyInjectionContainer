@@ -1,8 +1,12 @@
 <?php
 
-namespace SitePoint\Container;
+namespace \Container;
 
-use Interop\Container\ContainerInterface as InteropContainerInterface;
+interface ContainerInterface
+{
+    public function get($id);
+    public function has($id);
+}
 
 class Container implements InteropContainerInterface
 {
